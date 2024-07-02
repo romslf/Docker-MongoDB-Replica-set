@@ -2,8 +2,7 @@ version: "3.8"
 #List of networks for Docker-Compose
 networks:
   maxminded-ntw-compose:
-    external:
-      name: maxminded-ntw-compose
+    external: true
 
 #service template
 x-mongodb:
